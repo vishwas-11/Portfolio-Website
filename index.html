@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishwas - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vishwas' Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi my name is <span class="purple">Vishwas</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a class="btn" href="Resume.pdf" download>Download Resume</a>
+                    <a href="https://github.com/vishwas-11" class="btn" target="_blank">Visit Github</a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="Profile.jpeg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="Icon.png" alt="">
+                    <div class="vertical-title">
+                        Web Development
+                    </div>
+                    <div class="vertical-desc">As a frontend Web-Developer, I've worked on a few projects, some of them are mentioned below -: </div>
+                    <div class="vertical-desc">1. E-commerce Website :</div>
+                    <div class="vertical-desc">This is an E-commerce website made by using HTML, CSS and Javascript. It is responsive in nature.</div>
+                    <div class="vertical-desc">2. Calculator :</div>
+                    <div class="vertical-desc">It is a smart responsive Calculator which can perform all kinds of basic mathematical calculations such as "Addition, Subtraction, Multiplication and Division". It is made by using HTML, CSS and Javascript.</div>
+                    <div class="vertical-desc">3. Product-Landing page :</div>
+                    <div class="vertical-desc">This is a product landing page made by using HTML, CSS and Javascript.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="machine-learning.png" alt="">
+                    <div class="vertical-title">
+                        Machine Learning
+                    </div>
+                    <div class="vertical-desc">1. Driver Drowsiness System System</div>
+                    <div class="vertical-desc">This is a project based on Machine Learning and the utilities used are : OpenCV, Dlib, Scipy, Imutils. It detects the driver if he/she gets drowsy and plays and alarm alerting the driver.</div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="editing.png" alt="">
+                    <div class="vertical-title">
+                        Video Editing and Music Production
+                    </div>
+                    <div class="vertical-desc">I've made a few youtube music videos in which I produced my own music and edited them myself using softwares like "Adobe Premier Pro(Video Editing)" and "FL studio(Music Production)". Link to the few of them are given below -:</div> 
+                    <div class="vertical-desc"><a class="video-link" href="https://youtu.be/YyFvQO9l9jE?feature=shared" target="_blank">1. Link to the Youtube Video</a></div>
+                    <div class="vertical-desc"><a class="video-link" href="https://youtu.be/G6_E7RMSURM?feature=shared" target="_blank">2. Link to the Youtube Video</a></div>
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Vishwas' Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Contact no. :</li>
+                    <li>E-mail address :</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>9857412565</li>
+                    <li>vishwascharan11@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-rights">
+            Copyright &#169; www.vishwasportfolio.com | All rights reserved
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Machine Learning Enthusiast', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
